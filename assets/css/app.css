@@ -1,0 +1,286 @@
+* {
+	font-family: "微软雅黑";
+}
+.m-b-m{
+	margin-bottom: 10px;
+}
+
+.bg {
+	background-image: url(/assets/img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.l-i-t {
+	position: absolute;
+	height: 36px;
+	left: 100px;
+	right: 100px;
+	font-weight: bold;
+	font-size: 28px;
+	top: 34px;
+	line-height: 36px;
+	color: #F1F1F1;
+}
+
+.l-i-t a {
+	color: #FFFFFF;
+}
+
+.l-i-avatar {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.l-i-avatar img {
+	width: 32px;
+	display: block;
+	animation: rotate 2.5s ease-in-out infinite;
+	height: 32px;
+}
+
+.l-i-name {
+	position: absolute;
+	top: 0;
+	right: 46px;
+	text-align: right;
+	line-height: 42px;
+	font-size: 20px;
+}
+
+.l-i {
+	position: absolute;
+	left: 100px;
+	right: 100px;
+	top: 94px;
+	bottom: 36px;
+	overflow: hidden;
+	z-index: 2;
+}
+
+.l-i .cat {
+	font-size: 20px;
+	font-weight: 500;
+	height: 36px;
+	line-height: 36px;
+	color: #fff;
+}
+
+.l-i-bg {
+	position: absolute;
+	z-index: 1;
+	background-color: #FFFFFF;
+	opacity: .1;
+	left: 90px;
+	right: 90px;
+	top: 84px;
+	bottom: 26px;
+}
+
+.l-i-l {
+	position: absolute;
+	overflow: hidden;
+	top: 10px;
+	bottom: 10px;
+	left: 0;
+	width: 240px;
+}
+
+.l-i-l:hover {
+	overflow-y: auto;
+}
+
+.l-i-m {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	top: 10px;
+	left: 270px;
+	overflow: hidden;
+}
+
+.l-i-m .detail {
+	border-radius: 12px;
+	background-color: rgba(255,255,255,.82);
+	padding: 6px;
+	font-size: 14px;
+	color: #000;
+}
+.l-i-m .detail p{
+	text-indent: 28px;
+}
+
+.l-i-m:hover {
+	overflow-y: auto;
+}
+
+.l-i-l .item {
+	height: 64px;
+	padding: 6px;
+	position: relative;
+	margin-bottom: 10px;
+	border-left-width: 6px;
+	border-left-style: solid;
+	background-color: rgba(0, 0, 0, .35);
+}
+
+.l-i-l .item .cover {
+	position: absolute;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	transform: translateX(-100%);
+	transition: transform .51s ease-in;
+}
+
+.l-i-l .item:hover .cover,
+.l-i-l .item.active .cover {
+	transform: translateX(0);
+}
+
+.l-i-l,
+.l-i-l a {
+	color: #FFFFFF;
+}
+
+.l-i-l a {
+	display: block;
+	height: 100%;
+	font-size: 17px;
+	font-weight: 600;
+	line-height: 52px;
+	text-indent: 36px;
+}
+
+.l-i-l span {
+	position: absolute;
+	left: 14px;
+	width: 32px;
+	height: 32px;
+	top: 16px;
+	font-size: 18px;
+	line-height: 32px;
+}
+
+.l-i-l a:hover {
+	text-decoration: none;
+}
+
+.l-i-l .item:nth-child(6n) {
+	border-left-color: #009cab;
+}
+
+.l-i-l .item:nth-child(6n+1) {
+	border-left-color: #00a201;
+}
+
+.l-i-l .item:nth-child(6n+2) {
+	border-left-color: #db532b;
+}
+
+.l-i-l .item:nth-child(6n+3) {
+	border-left-color: #297ff0;
+}
+
+.l-i-l .item:nth-child(6n+4) {
+	border-left-color: #a401aa;
+}
+
+.l-i-l .item:nth-child(6n+5) {
+	border-left-color: #b21b46;
+}
+
+.l-i-l .item:nth-child(6n) .cover {
+	background-color: #009CAB;
+}
+
+.l-i-l .item:nth-child(6n+1) .cover {
+	background-color: #00a201;
+}
+
+.l-i-l .item:nth-child(6n+2) .cover {
+	background-color: #DB532B;
+}
+
+.l-i-l .item:nth-child(6n+3) .cover {
+	background-color: #297FF0;
+}
+
+.l-i-l .item:nth-child(6n+4) .cover {
+	background-color: #A401AA;
+}
+
+.l-i-l .item:nth-child(6n+5) .cover {
+	background-color: #B21B46;
+}
+
+.l-i-m .item {
+	height: 200px;
+	background-color: rgba(82, 82, 82, .48);
+	position: relative;
+	overflow: hidden;
+	padding: 6px;
+}
+
+.l-i-m .item .title {
+	color: #FFFFFF;
+	display: block;
+	line-height: 33px;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 0;
+}
+
+.l-i-m .item .date {
+	text-align: right;
+	font-size: 12px;
+	color: #6A98CF;
+	margin: 0;
+	line-height: 1.5;
+}
+
+.l-i-m .item a {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, .38);
+	display: block;
+	z-index: 2;
+	text-align: center;
+	line-height: 200px;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-size: 18px;
+	font-weight: 700;
+	transform: scale(0, 0);
+	transition: transform .3s ease-out;
+}
+
+.l-i-m .item .excerpt {
+	font-size: 14px;
+	color: #fefdf9;
+	text-indent: 24px;
+}
+
+.l-i-m .item:hover a {
+	transform: scale(1, 1);
+}
+
+
+/**
+ * animation
+ */
+
+@keyframes rotate {
+	from {
+		transform: rotateY(0);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}

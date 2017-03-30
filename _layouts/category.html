@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8"> {% include meta.html %}
+		<meta name="Description" content="{{page.desc}}-{{site.description}}" />
+		<title>{{page.title}}</title>
+	</head>
+
+	<body class="bg">
+		<div class="l-i-t">
+			<a href="/">Start</a>
+			<div class="l-i-avatar">
+				<img src="/assets/img/pro.png" />
+			</div>
+			<p class="l-i-name">{{page.title}}</p>
+		</div>
+		<div class="l-i">
+			{% include categories.html %}
+			<div class="l-i-m">
+				<p class="cat">{{page.tip}}</p>
+				<div class="row">
+					{% for post in site.categories[page.category] %}
+					<div class="col-lg-4 col-md-6 col-xs-12 m-b-m">
+						<div class="item">
+							<p class="title">{{ post.title }}</p>
+							<a href="{{ post.url }}"><span>Detail&nbsp;&gt;</span></a>
+							<p class="date">
+								<span class="glyphicon glyphicon-time"></span>&nbsp;{{ post.date | date:"%Y-%m-%d" }}
+							</p>
+							<p class="excerpt">{{ post.excerpt }}</p>
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+		</div>
+		<div class="l-i-bg"></div>
+	</body>
+
+</html>

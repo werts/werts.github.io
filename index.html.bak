@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>Werts·We</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="assets/css/werts.css" />
+		<link rel="shortcut icon" href="assets/img/favicon.ico"/>
+	</head>
+
+	<body>
+		<section class="col">
+			<div class="wrapper">
+				<section class="section-1 active rela">
+					<div class="an-left abs">
+						A web front-end developer, born in 1991.
+					</div>
+					<div class="abs an-opacity">
+						Werts-We
+					</div>
+					<div class="abs an-rotatey profile-head"><img src="assets/img/pro.png"/></div>
+				</section>
+				<section class="section-2">
+					<div class="project abs an-opacity">
+						<h3 class="abs project-tips an-opacity">Have participated in those projects</h3>
+						<ul class="fl project-personal abs">
+							<li class="hexagon abs">huati8.com</li>
+							<li class="hexagon hexagon-empty abs"></li>
+							<li class="hexagon abs">memos.pw</li>
+							<li class="hexagon hexagon-empty abs"></li>
+							<li class="hexagon abs">apicenter.pw</li>
+							<li class="hexagon abs hexagon-empty"></li>
+							<li class="hexagon abs hexagon-center">Personal project</li>
+						</ul>
+						<ul class="fl project-company abs">
+							<li class="hexagon hexagon-empty abs"></li>
+							<li class="abs hexagon">tq mall</li>
+							<li class="hexagon hexagon-empty abs"></li>
+							<li class="hexagon abs">winshare</li>
+							<li class="hexagon hexagon-empty abs"></li>
+							<li class="hexagon abs">yakexima</li>
+							<li class="hexagon abs hexagon-center">Company project</li>
+						</ul>
+					</div>
+				</section>
+				<section class="section-3">
+					<div class="fcb skills abs">
+						<div class="fl w-h p-r-m an-opacity">
+							<p class="metro-title">All languages those projects used</p>
+							<ul class="fcb metro-main metro-main-1">
+								<li class="fl w-h-h">HTML</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">CSS</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">Nodejs</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">PHP</li>
+								<li class="fl w-h-h">Javascript</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">SQL</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+							</ul>
+						</div>
+						<div class="fl w-h p-l-m an-opacity">
+							<p class="metro-title">Framework / Libraries used</p>
+							<ul class="fcb metro-main metro-main-2">
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">Angularjs</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">JQuery</li>
+								<li class="fl w-h-h">Bootstrap</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">Hammer</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">AmazeUI</li>
+								<li class="fl w-h-h metro-empty">&nbsp;</li>
+								<li class="fl w-h-h">iScroll</li>
+							</ul>
+						</div>
+						<div class="abs other">With Grunt/Phantomjs</div>
+					</div>
+				</section>
+				<section class="section-4">
+					<div class="an-ele an-top an-ele-1">
+						All world in one!
+						<p class="an-ele an-opacity">Contact me: werts-we@qq.com</p>
+					</div>
+				</section>
+			</div>
+			<nav>
+				<span class="active rela"><s class="abs">Overview</s></span>
+				<span class="rela"><s class="abs">Projects</s></span>
+				<span class="rela"><s class="abs">Skills</s></span>
+				<span class="rela"><s class="abs">Contact</s></span>
+			</nav>
+		</section>
+		<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+		<script src="assets/js/werts.js"></script>
+		<script type="text/javascript">
+			werts.init();
+		</script>
+	</body>
+
+</html>
