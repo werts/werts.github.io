@@ -11,6 +11,11 @@ category: program
 由于是公司内部项目，源码和项目结构就不拿出来了，以demo为例，如果有不合适或者错误的地方，欢迎心底吐槽（联系不到我的哦   w-w， 我不会说可以通过邮件或者github找到我的）
 ### 使用
 + 安装webpack
+
+```bash
+> npm i webpack --save-dev
+```
+
 + 项目结构示意（angular）
 
 
