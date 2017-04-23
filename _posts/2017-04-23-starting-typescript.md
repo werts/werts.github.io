@@ -11,6 +11,7 @@ category: program
 ### 使用
 #### 接口
 - 接口说明
+
 ```typescript
 interface Square{
 	width:number,
@@ -20,19 +21,23 @@ function shape(config: Square) :{width:number, height:number} {
 	
 }
 ```
+
 - 可选属性（使用?号）
+
 ```typescript
 interface Square{
 	width?:number
 }
 ```
+
 - 只读属性（使用readonly）
+
 ```typescript
 interface Square{
 	readonly width:number
 }
 ```
--  
+
 #### 泛型
 #### 枚举
 #### 装饰器
