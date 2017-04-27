@@ -36,6 +36,14 @@ category: program
 		支持六个属性。flex-end;center;flex-start;space-around;space-between;stretch。
 
 	定义完容器，看一下子元素的定义。
+	- order
+		用以声明子元素排序，越小越靠前，默认是0.
+	- flex-grow
+		声明子元素的放大比例，默认是0，如果能设置为1，则均分。
+	- flex-shrink
+	- flex-basis
+	- flex
+	- align-self
 - grid
 ### 尾巴
 最近赶上事情相对较少，开始折腾下博客，一直用oneNote做笔记。
