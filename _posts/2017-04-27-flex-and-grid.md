@@ -23,9 +23,11 @@ category: program
 	上面的操作就把box转换为了flex容器，有了容器，现在是放子元素。flex容器都支持哪些属性呢。
 
 	- flex-direction
-
+		支持四个值：row;row-reverse;column;column-reverse;这个很好理解，就是子元素的排列方向。
 	- flex-wrap
+		支持四个属性：wrap;no-wrap;wrap-reverse;用来声明子元素的排列，如果一行放不下，使用了wrap属性，将会换行。同样的，nowrap就是不换行。wrap-reverse也就很好理解了，换行后在第一行在上方。
 	- flex-flow
+	- flex-grow
 	- justify-content
 	- align-items
 	- align-content
