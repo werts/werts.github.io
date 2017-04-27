@@ -110,6 +110,12 @@
 .l-i-m .detail p{
 	text-indent: 28px;
 }
+.l-i-m .detail li{
+	list-style: disc;
+}
+.l-i-m .detail li li{
+	text-indent: 2em;
+}
 
 .l-i-m:hover {
 	overflow-y: auto;
