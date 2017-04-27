@@ -41,9 +41,21 @@ category: program
 	- flex-grow
 		声明子元素的放大比例，默认是0，如果能设置为1，则均分。
 	- flex-shrink
+		子元素既然有放大，就有缩小。默认是1，不支持负值。
 	- flex-basis
+		子元素占据的空间。
 	- flex
+		flex-grow、flex-shrink、flex-basis的简写。
 	- align-self
+		定义自身的对齐，可以覆盖align-items。
 - grid
+	既然上面提到了flex，最近又发现了一个东西：grid，而且网上教程也很多，但那有啥用呢，我自己要记录下来，同样的，和flex一样，也有两个概念，为了和网上的一致呢，我也把子元素叫项目，谁叫英文叫item呢。grid也有两个东西，容器和项目。同样的，首先定义容器为grid。
+```css
+.box{
+	display:grid;
+}
+```
+	这样一来，所有的子元素就变为了网格元素。
+
 ### 尾巴
-最近赶上事情相对较少，开始折腾下博客，一直用oneNote做笔记。
+最近赶上事情相对较少，开始折腾下博客，一直用oneNote做笔记，现在开始同时记录下博客。有了flex，感觉要实现上下左右居中、布局网格so easy。
