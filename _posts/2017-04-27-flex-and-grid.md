@@ -27,12 +27,15 @@ category: program
 	- flex-wrap
 		支持四个属性：wrap;no-wrap;wrap-reverse;用来声明子元素的排列，如果一行放不下，使用了wrap属性，将会换行。同样的，nowrap就是不换行。wrap-reverse也就很好理解了，换行后在第一行在上方。
 	- flex-flow
-	- flex-grow
+		就是flex-direction和flex-wrap的简写。
 	- justify-content
+		支持五个属性，设置横向对齐方式。center（居中对齐）; flex-end（右对齐）; flex-start（左对齐）; space-around（两端对齐）; space-between（子元素左右间距相等）;
 	- align-items
+		支持五个属性,设置纵向对齐方式。flex-start（顶部对齐）; flex-end（底部对齐）  center （垂直居中）; baseline(子元素的文字第一行对齐);stretch（如果没有设置高度，将会使用这个值，也就是auto，纵向拉伸）
 	- align-content
+		支持六个属性。flex-end;center;flex-start;space-around;space-between;stretch。
 
-
+	定义完容器，看一下子元素的定义。
 - grid
 ### 尾巴
 最近赶上事情相对较少，开始折腾下博客，一直用oneNote做笔记。
