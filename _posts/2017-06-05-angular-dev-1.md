@@ -25,7 +25,7 @@ Uncaught Error: Can't resolve all parameters for useFactory: (?, ?, ?, ?)
          backend: XHRBackend,
          options: RequestOptions) => {
            return new HttpService(slimLoadingBarService, toasterService, backend, options);
-         }
+      }
    }
   ```
 
