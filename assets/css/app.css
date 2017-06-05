@@ -224,7 +224,7 @@
 }
 
 .l-i-m .item {
-	height: 200px;
+	max-height: 200px;
 	background-color: rgba(82, 82, 82, .48);
 	position: relative;
 	overflow: hidden;
