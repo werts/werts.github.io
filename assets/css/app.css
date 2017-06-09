@@ -225,6 +225,7 @@
 
 .l-i-m .item {
 	max-height: 200px;
+	min-height: 126px;
 	background-color: rgba(82, 82, 82, .48);
 	position: relative;
 	overflow: hidden;
@@ -262,6 +263,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	transform: scale(0, 0);
+	padding-top: 30px;
 	transition: transform .3s ease-out;
 }
 
