@@ -1,0 +1,32 @@
+title: werts' blog
+url: 'https://werts.github.io'
+
+timezone: Asia/Shanghai
+encoding: "utf-8"
+repository: werts/werts.github.io
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+gems:
+    - jekyll-github-metadata
+    - rouge
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+exclude:
+  - Gemfile
+  - Gemfile.lock
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+side_bar_repo_limit: 5
