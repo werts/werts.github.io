@@ -29,4 +29,3 @@ lsi: false
 quiet: false
 excerpt_separator: "\n\n"
 permalink: /:year/:month/:day/:title/
-side_bar_repo_limit: 5
