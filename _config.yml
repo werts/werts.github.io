@@ -21,9 +21,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
 collections:
-    wiki:
+    packages:
         output: true
-        permalink: /wiki/:path/
+        permalink: /packages/:path/
 paginate: 8
 lsi: false
 quiet: false
