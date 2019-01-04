@@ -23,5 +23,5 @@ exclude:
 paginate: 8
 lsi: false
 quiet: false
-excerpt_separator: "\n\n"
+excerpt_separator: "<!--more-->"
 permalink: /:year/:month/:day/:title/
