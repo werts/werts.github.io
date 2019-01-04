@@ -20,10 +20,6 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-collections:
-    packages:
-        output: true
-        permalink: /packages/:path/
 paginate: 8
 lsi: false
 quiet: false
