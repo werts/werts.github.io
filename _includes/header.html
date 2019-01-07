@@ -1,0 +1,8 @@
+<header>
+	<a href="{{ site.url }}">{{ site.title }}</a>
+	<h2 class="title">{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</h2>
+	<div class="timer">1970-01-01 00:00:00</div>
+</header>
+<script>
+	(function(){function a(a){return 10>a?"0"+a:a}setInterval(function(){var c=document.querySelector(".timer"),b=new Date;c.innerHTML=b.getFullYear()+"-"+a(b.getMonth()+1)+"-"+a(b.getDate())+" "+a(b.getHours())+":"+a(b.getMinutes())+":"+a(b.getSeconds())},1E3)})();
+</script>

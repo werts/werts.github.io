@@ -2,14 +2,26 @@
 layout: default 
 title: Home
 ---
+{% include header.html %}
 
 <div class="index">
-	<div class="home-link">
-		<a href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
-	</div>
-	<div class="recent-posts">
-		<h5 class="heading">最新发布</h5>
+	<div class="terminal">
+		<div class="heading">
+			<h4 class="title"><i class="icon icon-light"></i> 最新提交</h4>
+			<div class="action">
+				{% if paginator.previous_page %}
+				<a href="{{ paginator.previous_page_path }}" class="before icon icon-left" title="上一页"></a>
+				{% endif %}
+				{% if paginator.next_page %}
+				<a href="{{ paginator.next_page_path }}" class="next icon icon-right" title="下一页"></a>
+				{% endif %}
+			</div>
+		</div>
+		<div class="content" id="content"></div>
 	</div>
 </div>
+{% include dock.html %}
+
+<div class="hide" id="posts">{% for post in paginator.posts %}{"title":"{{ post.title }}","url":"{{ post.url }}","time":"{{ post.date }}"}n+br{% endfor %}</div>
 <script src="/js/libs/type-core.js" type="text/javascript" charset="utf-8"></script>
 <script src="/js/index.js" type="text/javascript" charset="utf-8"></script>

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+{% include header.html %}
+
+<div class="index">
+	<div class="terminal">
+		<div class="heading">
+			<h4 class="title"><i class="icon icon-light"></i> 发表时间： {{ page.date }}</h4>
+			<div class="action">
+				<a href="javascript:history.go(-1)" class="before icon icon-left" title="返回"></a>
+			</div>
+		</div>
+		<div class="content" id="content"></div>
+	</div>
+</div>
+{% include dock.html %}
