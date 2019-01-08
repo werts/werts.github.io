@@ -4,10 +4,13 @@
 	background-image: url(/imgs/bg.jpg);
 	background-size: cover;
 	overflow: hidden;
+	ol,ul{
+		list-style: initial;
+	}
 	.content{
 		position: relative;
 		&::after{
-			content: '可使用鼠标滚轮上下滚动';
+			content: '使用鼠标滚轮上下滚动';
 			font-size: 12px;
 			position: absolute;
 			right: 15px;
