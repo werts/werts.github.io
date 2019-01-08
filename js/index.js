@@ -10,7 +10,7 @@
     };
 
     var formatTime = function(time) {
-        var date = new Date(time);
+        var date = new Date(time.replace(/\-/g, '/'));
 
         return `${date.getFullYear()}-${fix(date.getMonth()+1)}-${fix(date.getDate())}`;
     };
