@@ -10,13 +10,13 @@
 	.content{
 		position: relative;
 		&::after{
-			content: '使用鼠标滚轮上下滚动';
-			font-size: 12px;
+			content: '\e622';
+			font-family: iconfont!important;
+			font-size: 42px;
 			position: absolute;
-			right: 15px;
+			right: 10px;
 			top: 50%;
 			line-height: 1.5;
-			width: 12px;
 			display: none;
 			transform: translateY(-50%);
 		}
