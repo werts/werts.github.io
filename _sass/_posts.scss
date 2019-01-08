@@ -1,0 +1,33 @@
+.posts{
+	height: 100%;
+	width: 100%;
+	background-image: url(/imgs/bg.jpg);
+	background-size: cover;
+	overflow: hidden;
+	.content{
+		position: relative;
+		&::after{
+			content: '可使用鼠标滚轮上下滚动';
+			font-size: 12px;
+			position: absolute;
+			right: 15px;
+			top: 50%;
+			line-height: 1.5;
+			width: 12px;
+			display: none;
+			transform: translateY(-50%);
+		}
+		&:hover::after{
+			display: block;
+		}
+		.content-wrap{
+			padding-right: 57px;
+			.page-content{
+				padding: 12px;
+			}
+			.excerpt{
+				padding: 12px;
+			}
+		}
+	}
+}

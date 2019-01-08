@@ -12,7 +12,7 @@
 	var formatTime = function(time){
 		var date = new Date(time);
 		
-		return `${date.getFullYear()}-${fix(date.getMonth()+1)}-${fix(date.getDate())} ${fix(date.getHours())}:${fix(date.getMinutes())}:${fix(date.getSeconds())}`;
+		return `${date.getFullYear()}-${fix(date.getMonth()+1)}-${fix(date.getDate())}`;
 	};
 
 	try {
@@ -30,6 +30,14 @@
 			indexTypeWriter.typeString('>  ')
 			.typeString(`<span class="fold">${formatTime(current.time)}</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`)
 			.typeString(`<a href="${current.url}" class="command">${current.title}</a>`);
+			
+			if (current.tags){
+				var tags = current.tags.split(',');
+				
+				for (var j = 0;j<tags.length;j++){
+					indexTypeWriter.typeString(`&nbsp;&nbsp;<span class="tag">${tags[j]}</span>`);
+				}
+			}
 			
 			if (i !== data.length-2){
 				indexTypeWriter.pauseFor(3);

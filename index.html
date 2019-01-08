@@ -8,6 +8,7 @@ title: Home
 	<div class="terminal">
 		<div class="heading">
 			<h4 class="title"><i class="icon icon-light"></i> 最新提交</h4>
+			<span>{{ paginator.page }}/{{ paginator.total_pages }}</span>
 			<div class="action">
 				{% if paginator.previous_page %}
 				<a href="{{ paginator.previous_page_path }}" class="before icon icon-left" title="上一页"></a>
@@ -22,6 +23,6 @@ title: Home
 </div>
 {% include dock.html %}
 
-<div class="hide" id="posts">{% for post in paginator.posts %}{"title":"{{ post.title }}","url":"{{ post.url }}","time":"{{ post.date }}"}n+br{% endfor %}</div>
+<div class="hide" id="posts">{% for post in paginator.posts %}{"title":"{{ post.title }}","tags":"{{ post.tags }}","url":"{{ post.url }}","time":"{{ post.date }}"}n+br{% endfor %}</div>
 <script src="/js/libs/type-core.js" type="text/javascript" charset="utf-8"></script>
 <script src="/js/index.js" type="text/javascript" charset="utf-8"></script>

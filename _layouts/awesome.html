@@ -7,7 +7,7 @@ layout: default
 <div class="posts">
 	<div class="terminal">
 		<div class="heading">
-			<h4 class="title"><i class="icon icon-light"></i> 发表时间： {{ page.date | date: "%Y-%m-%d" }}</h4>
+			<h4 class="title"><i class="icon icon-list"></i> Awesome List</h4>
 			<div class="action">
 				<a href="javascript:history.go(-1)" class="before icon icon-left" title="返回"></a>
 			</div>
@@ -15,10 +15,7 @@ layout: default
 		<div class="content fixed">
 			<div class="content-wrap">
 				<div class="content-main">
-					<div class="excerpt">
-						<p>摘要</p>
-					{{ page.excerpt }}</div>
-					<div class="page-content">{{ page.content }}</div>
+					<div class="page-content">{{ content }}</div>
 				</div>
 			</div>
 		</div>
