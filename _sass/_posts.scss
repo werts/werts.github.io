@@ -4,8 +4,11 @@
 	background-image: url(/imgs/bg.jpg);
 	background-size: cover;
 	overflow: hidden;
-	ol,ul{
+	ul{
 		list-style: initial;
+	}
+	ol{
+		list-style-type: decimal;
 	}
 	.content{
 		position: relative;

@@ -22,5 +22,5 @@ exclude:
   - Gemfile.lock
 paginate: 14
 quiet: false
-excerpt_separator: "<!--more-->"
+excerpt_separator: "<!-- more -->"
 permalink: /:year/:month/:day/:title/

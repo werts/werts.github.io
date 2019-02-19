@@ -40,13 +40,15 @@
             }
 
             if (i !== data.length - 2) {
-                indexTypeWriter.pauseFor(3);
+                indexTypeWriter.pauseFor(300);
                 indexTypeWriter.typeString('<br/>');
             } else {
                 indexTypeWriter.stop();
             }
         }
-
+		indexTypeWriter.callFunction(function(state) {
+			state.elements.cursor.style.display = 'none';
+		});
         indexTypeWriter.start();
     } catch (e) {
         //TODO handle the exception
