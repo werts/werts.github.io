@@ -33,6 +33,19 @@
 			}
 			.excerpt{
 				padding: 12px;
+				h4{
+					position: relative;
+					padding: 12px 0;
+					&::after{
+						content: '';
+						width: 48px;
+						height: 2px;
+						background-color: #00FFFF;
+						position: absolute;
+						left: 0;
+						bottom: 5px;
+					}
+				}
 			}
 		}
 	}
