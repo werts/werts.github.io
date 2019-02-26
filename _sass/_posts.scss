@@ -50,4 +50,40 @@
 			}
 		}
 	}
+	
+	table{
+		width: 100%;
+		border-collapse: collapse;
+		text-align: left;
+		font-size: 14px;
+		font-variant: tabular-nums;
+		line-height: 1.5;
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		position: relative;
+		clear: both;
+		border:1px solid #F1F1F1;
+		tr{
+			th{
+				background: #fafafa;
+				text-align: left;
+				color: rgba(0,0,0,.85);
+				font-weight: 500;
+				border: 1px solid #191919;
+				padding: 8px 16px;
+				&:first-child{
+					border-left-color: #F1F1F1;
+				}
+				 &:last-child{
+					 border-right-color: #F1F1F1;
+				 }
+			}
+			td{
+				padding: 8px 16px;		
+				border:1px solid #F1F1F1;
+			}
+		}
+	}
 }
