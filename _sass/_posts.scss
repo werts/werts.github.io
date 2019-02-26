@@ -63,7 +63,7 @@
 			height: 2px;
 			background-color: #00FFFF;
 			vertical-align: middle;
-			margin: 0 6px;
+			margin: 0 12px;
 		}
 	}
 	
@@ -75,6 +75,9 @@
 			a{
 				color: #00FFFF;
 			}
+			.gt-svg svg{
+				fill: #00FFFF;
+			}
 			.gt-header-controls-tip{
 				color: #00FFFF;
 			}
@@ -83,8 +86,8 @@
 				background-color: #fff;
 			}
 			.gt-btn{
-				color: #111;
-				background-color: #00FFFF;
+				color: #00FFFF;
+				background-color: transparent;
 				border: 1px solid #00FFFF;
 			}			
 		}
