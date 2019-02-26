@@ -51,6 +51,22 @@
 		}
 	}
 	
+	.cmt-title{
+		margin-top: 36px;
+		margin-bottom: 12px;
+		width: 100%;
+		text-align:center;
+		&::after, &::before{
+			content: '';
+			display: inline-block;
+			width: 18px;
+			height: 2px;
+			background-color: #00FFFF;
+			vertical-align: middle;
+			margin: 0 6px;
+		}
+	}
+	
 	table{
 		width: 100%;
 		border-collapse: collapse;
