@@ -67,6 +67,27 @@
 		}
 	}
 	
+	#gitalk-container{
+		.gt-container{
+			.gt-link{
+				border-bottom-color: #00FFFF;
+			}
+			a{
+				color: #00FFFF;
+			}
+			.gt-header-controls-tip{
+				color: #00FFFF;
+			}
+			.gt-btn-preview{
+				color: #00FFFF;
+			}
+			.gt-btn{
+				background-color: #00FFFF;
+				border: 1px solid #00FFFF;
+			}			
+		}
+	}
+	
 	table{
 		width: 100%;
 		border-collapse: collapse;
