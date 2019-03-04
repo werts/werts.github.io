@@ -4,4 +4,13 @@
 	background-image: url(/imgs/bg.jpg);
 	background-size: cover;
 	overflow: hidden;
+	.terminal{
+		.content{
+			&.fixed{
+				overflow-x: hidden;
+				overflow-y: auto;
+				max-height: 686px;
+			}
+		}
+	}
 }

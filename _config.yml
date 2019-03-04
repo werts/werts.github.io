@@ -20,7 +20,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
-paginate: 12
+paginate: 20
 quiet: false
 excerpt_separator: "<!-- more -->"
 permalink: /:year/:month/:day/:title/

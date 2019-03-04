@@ -4,6 +4,7 @@
         delay: 20
     });
     var data = doc.getElementById('posts').innerHTML;
+	var contentEle = doc.getElementById('content');
 
     var fix = function(num) {
         return num < 10 ? `0${num}` : `${num}`;
@@ -42,6 +43,10 @@
             if (i !== data.length - 2) {
                 indexTypeWriter.pauseFor(300);
                 indexTypeWriter.typeString('<br/>');
+				
+				indexTypeWriter.callFunction(function(){
+					contentEle.scrollTop += 35;
+				});
             } else {
                 indexTypeWriter.stop();
             }
