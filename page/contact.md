@@ -5,5 +5,5 @@ permalink: /contact/
 ---
 
 - Email: werts-we@qq.com
-- Blog: [werts.ml](//werts.ml)
+- Blog: [werts.github.io](//werts.github.io)
 - Git repo： [werts](https://github.com/werts?tab=repositories)
