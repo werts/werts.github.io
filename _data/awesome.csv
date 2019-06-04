@@ -12,3 +12,4 @@ editorjs, https://editorjs.io/, 块编辑器
 publick-apis, https://github.com/toddmotto/public-apis,一些公共api
 GenList, https://www.staticgen.com/, 一堆JAMstack（javasript api markup）站点生成工具列表
 30 seconds of code, https://30secondsofcode.org/, 一系列极简的代码实现，很有意思
+functionscript, https://github.com/FunctionScript/FunctionScript, function-to-http-apis
