@@ -14,3 +14,5 @@ GenList, https://www.staticgen.com/, 一堆JAMstack（javasript api markup）站
 30 seconds of code, https://30secondsofcode.org/, 一系列极简的代码实现，很有意思
 functionscript, https://github.com/FunctionScript/FunctionScript, function-to-http-apis
 csv parser, https://www.papaparse.com/, Seems powerful csv parser
+node-gitlab-api, https://github.com/jdalrymple/node-gitlab,  GitLab API NodeJS library with full support of all the Gitlab API services
+图片对比库, https://github.com/mapbox/pixelmatch, The smallest, simplest and fastest JavaScript pixel-level image comparison library
