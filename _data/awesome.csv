@@ -18,3 +18,4 @@ node-gitlab-api, https://github.com/jdalrymple/node-gitlab,  GitLab API NodeJS l
 图片对比库, https://github.com/mapbox/pixelmatch, The smallest, simplest and fastest JavaScript pixel-level image comparison library
 微前端, https://github.com/neuland/micro-frontends, 微前端
 angular-微前端, https://itnext.io/building-micro-frontend-applications-with-angular-elements-34483da08bcb, 基于angular实现微前端
+HTML标准, https://html.spec.whatwg.org/multipage/parsing.html#encoding-sniffing-algorithm, 标题在这里查询
