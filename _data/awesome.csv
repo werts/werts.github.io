@@ -20,3 +20,4 @@ node-gitlab-api, https://github.com/jdalrymple/node-gitlab,  GitLab API NodeJS l
 angular-微前端, https://itnext.io/building-micro-frontend-applications-with-angular-elements-34483da08bcb, 基于angular实现微前端
 HTML标准, https://html.spec.whatwg.org/multipage/parsing.html#encoding-sniffing-algorithm, 标题在这里查询
 stomp.js, https://stomp-js.github.io/guide/ng2-stompjs/2018/11/04/ng2-stomp-with-angular7.html, stomp.js在angular上的使用
+online-editor, https://github.com/codesandbox/codesandbox-client, 在线编辑器
