@@ -24,3 +24,4 @@ online-editor, https://github.com/codesandbox/codesandbox-client, 在线编辑�
 js解析器, https://github.com/acornjs/acorn,  一个较量的js解析器
 lerna,https://github.com/lerna/lerna#readme, 管理多个包的工具
 jsPerf, https://jsperf.com/, js性能测试工具
+pixijs, http://pixijs.com, canvas绘图库
