@@ -22,3 +22,4 @@ HTML标准, https://html.spec.whatwg.org/multipage/parsing.html#encoding-sniffin
 stomp.js, https://stomp-js.github.io/guide/ng2-stompjs/2018/11/04/ng2-stomp-with-angular7.html, stomp.js在angular上的使用
 online-editor, https://github.com/codesandbox/codesandbox-client, 在线编辑器
 js解析器, https://github.com/acornjs/acorn,  一个较量的js解析器
+管理包,https://github.com/lerna/lerna#readme, 管理多个包的工具
