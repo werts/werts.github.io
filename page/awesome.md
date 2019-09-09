@@ -10,7 +10,7 @@ permalink: /awesome/
         <th>名称</th>
         <th>描述</th>
     </tr>
-    {% for awe in site.data.awesome %}
+    {% for awe in site.data.awesome reversed %}
     <tr>
         <td>{{ forloop.index }}</td>
         <td>
