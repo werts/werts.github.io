@@ -28,3 +28,4 @@ pixijs, http://pixijs.com, canvas绘图库
 Proton,http://a-jie.github.io/Proton, javascript particle engine
 xterm.js, https://github.com/xtermjs/xterm.js, 一款web终端工具，vscode在使用的
 如何构建插件系统, https://www.figma.com/blog/how-we-built-the-figma-plugin-system/ , 提供一些思路，用来构建插件系统，其中我提到 https://github.com/tc39/proposal-realms
+speaker deck, https://speakerdeck.com/p/featured, 好多ppt
