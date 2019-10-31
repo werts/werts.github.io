@@ -30,3 +30,4 @@ xterm.js, https://github.com/xtermjs/xterm.js, 一款web终端工具，vscode在
 如何构建插件系统, https://www.figma.com/blog/how-we-built-the-figma-plugin-system/ , 提供一些思路，用来构建插件系统，其中我提到 https://github.com/tc39/proposal-realms
 speaker deck, https://speakerdeck.com/p/featured, 好多ppt
 bitmelo, https://bitmelo.com/, 一个有趣的在线游戏制作器
+robotjs, http://robotjs.io/, 一个有趣的nodejs桌面自动化工具
