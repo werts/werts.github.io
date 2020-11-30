@@ -36,3 +36,4 @@ hashcat, https://hashcat.net/hashcat/, 密码恢复工具
 puppeteer, https://pptr.dev/, headless-chrome
 字符, https://graphemica.com/, 在这里找到喜欢的符号
 hinclude.js, https://github.com/gustafnk/h-include, 一个有趣的（ESI）库，可以像include一样向后端获取内容（实现微前端）
+lunicode, https://lunicode.com/bigtext, 一些有用的code生成，比如emotions, Ascii等
