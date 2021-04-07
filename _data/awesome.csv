@@ -38,3 +38,4 @@ puppeteer, https://pptr.dev/, headless-chrome
 hinclude.js, https://github.com/gustafnk/h-include, 一个有趣的（ESI）库，可以像include一样向后端获取内容（实现微前端）
 lunicode, https://lunicode.com/bigtext, 一些有用的code生成，比如emotions, Ascii等
 htmldom, https://htmldom.dev/, 使用纯js操作html dom
+pannellum, https://pannellum.org/, 创建360全景的一种方案
